@@ -12,6 +12,13 @@ Maintain a deque of indexes whose values strictly decrease front to back. The di
 
 **Complexity:** O(n) time, O(k) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
